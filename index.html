@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental Health Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Employee Concerns</h1>
+    <div class="form-container">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required />
+      </div>
+      <div class="form-group">
+        <label for="concern">Your Concern:</label>
+        <textarea id="concern" required></textarea>
+      </div>
+      <div class="form-group">
+        <button onclick="submitConcern()">Submit</button>
+      </div>
+    </div>
+    <div id="reply-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
